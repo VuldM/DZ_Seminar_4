@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(./fonts/gilroy-semibold.ttf);
+}
+
+.header {
+ margin-top:  40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon__logo__header {
+  display: flex;
+  gap: 14px;
+}
+
+.icon__header {
+  display: flex;
+  width: 35px;
+  height: 40px;
+}
+
+.logo__text {
+  display: flex;
+  align-items: center;
+  font-family: "Gillroy-Bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.grow {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.be {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link_header {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link__buton_header {
+  display: flex;
+  align-items: center;  
+  margin-left: 280px;
+  gap: 34px;
+}
+
+.home {
+  color: #f25822;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.link{
+  display: inline-block;
+  margin-left: 30px;
+}
+.header__button {
+  border-radius: 30px;
+  background: #f25822;
+  width: 120px;
+  height: 40px;
+  
+}
+.get_s{
+  color: #fff;
+  font-family: Gilroy-SemiBold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mine__text{
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: 75px;
+  left: -20px;
+}
+
+.main__text__img {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.mine__text1 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 522px;
+  height: 222px;
+}
+
+.mine__text2 {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 466px;
+  height: 48px;
+}
+
+.mine__img {
+ display: inline-block;
+ margin-left: 20px;
+  background: url(./img/pngfind\ 1.svg), lightgray 10% / cover no-repeat;
+}
+
+.main__button {
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+ 
+}
+.start_n{
+   color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main__link {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  position: relative;
+  left: 27px;
+}
+
+.main__button__link {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.main__button__link__text {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 42px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25.6px;
+  margin-top: 50px;
+}
+
+.liva {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/liva.svg), lightgray 10% / cover no-repeat;
+ 
+  left: 0;
+}
+
+.kanba {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/kanba.svg), lightgray 10% / cover no-repeat;
+ 
+}
+
+.amara {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/amara.svg), lightgray 10% / cover no-repeat;
+ 
+  
+}
+
+.aven {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/aven.svg), lightgray 10% / cover no-repeat;
+ 
+}
+
+.hexlab {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/hexlab.svg), lightgray 10% / cover no-repeat;
+  
+}
+
+.kanba__1 {
+  width: 160px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url(./img/kanba.svg), lightgray 10% / cover no-repeat;
+ 
+}
